@@ -1,9 +1,9 @@
 def minion_game(string):
     Stuart_score,Kevin_score=0,0
     for i in range(len(s)):
-        if s[i] in ["A","E","I","O","U"]:
+         if s[i] in ["A","E","I","O","U"]:
             Kevin_score+=len(s)-i
-        else:
+         else:
             Stuart_score+=len(s)-i
     if Stuart_score>Kevin_score:
         print("Stuart",Stuart_score)
